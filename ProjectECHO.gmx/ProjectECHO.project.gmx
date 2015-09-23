@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+<<<<<<< HEAD
     <sprite>sprites\spr_player_idle</sprite>
     <sprite>sprites\spr_player_walk_f</sprite>
     <sprite>sprites\spr_player_walk_b</sprite>
@@ -17,6 +18,19 @@
   <paths name="paths"/>
   <rooms name="rooms">
     <room>rooms\room0</room>
+=======
+    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_wall</sprite>
+  </sprites>
+  <backgrounds name="background"/>
+  <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+    <object>objects\obj_wall</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_test</room>
+>>>>>>> origin/master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
