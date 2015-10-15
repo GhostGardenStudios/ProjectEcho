@@ -8,10 +8,15 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_invisiblewall</sprite>
     <sprite>sprites\spr_testplayer_down</sprite>
     <sprite>sprites\spr_testplayer_right</sprite>
     <sprite>sprites\spr_testplayer_left</sprite>
     <sprite>sprites\spr_testplayer_up</sprite>
+    <sprite>sprites\spr_echo_down</sprite>
+    <sprite>sprites\spr_echo_up</sprite>
+    <sprite>sprites\spr_echo_right</sprite>
+    <sprite>sprites\spr_echo_left</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -20,6 +25,7 @@
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_invisiblewall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
