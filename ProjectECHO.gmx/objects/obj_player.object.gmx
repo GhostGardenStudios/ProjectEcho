@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Set fixed rotation
 phy_fixed_rotation = true;
-spd = 3;
+shiva = 3;
 image_speed = 0;
 </string>
           </argument>
@@ -52,35 +52,35 @@ image_speed = 0;
           <argument>
             <kind>1</kind>
             <string>/// Move the player in the step event
-var right_key = keyboard_check(vk_right);
-var left_key = keyboard_check(vk_left);
-var up_key = keyboard_check(vk_up);
-var down_key = keyboard_check(vk_down);
+var right_key = keyboard_check(ord("D"));
+var left_key = keyboard_check(ord("A"));
+var up_key = keyboard_check(ord("W"));
+var down_key = keyboard_check(ord("S"));
 
 // Move right
 if (right_key) {
-    phy_position_x += spd;
+    phy_position_x += shiva;
     sprite_index = spr_testplayer_right;
     image_speed = .2;
 }
 
 // Move up
 if (up_key) {
-    phy_position_y -= spd;
+    phy_position_y -= shiva;
     sprite_index = spr_testplayer_up;
     image_speed = .2;
 }
 
 // Move left
 if (left_key) {
-    phy_position_x -= spd;
+    phy_position_x -= shiva;
     sprite_index = spr_testplayer_left;
     image_speed = .2;
 }
 
 // Move down
 if (down_key) {
-    phy_position_y += spd;
+    phy_position_y += shiva;
     sprite_index = spr_testplayer_down;
     image_speed = .2;
 }
@@ -134,8 +134,8 @@ if (!down_key and !right_key and !left_key and !up_key) {
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>2,12</point>
-    <point>12,12</point>
-    <point>12,20</point>
-    <point>2,20</point>
+    <point>12.5,12</point>
+    <point>12.5,18.75</point>
+    <point>2,18.75</point>
   </PhysicsShapePoints>
 </object>

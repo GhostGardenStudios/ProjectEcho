@@ -13,7 +13,9 @@
     <sprite>sprites\spr_testplayer_left</sprite>
     <sprite>sprites\spr_testplayer_up</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_grass</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -21,6 +23,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
+    <room>rooms\rm_pepe</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
