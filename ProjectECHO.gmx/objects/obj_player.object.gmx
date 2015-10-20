@@ -27,8 +27,13 @@
             <kind>1</kind>
             <string>///Set fixed rotation
 phy_fixed_rotation = true;
-shiva = 3;
+spd = 3;
+hspd = 0;
+vspd = 0;
+len = 0
 image_speed = 0;
+scr_get_input();
+state = scr_move_state;
 </string>
           </argument>
         </arguments>
@@ -52,69 +57,7 @@ image_speed = 0;
           <argument>
             <kind>1</kind>
             <string>/// Move the player in the step event
-var right_key = keyboard_check(vk_right);
-var left_key = keyboard_check(vk_left);
-var up_key = keyboard_check(vk_up);
-var down_key = keyboard_check(vk_down);
-
-// Move right
-if (right_key) {
-    phy_position_x += shiva;
-    sprite_index = spr_echo_right;
-    image_speed = 0.3;
-}
-
-// Move up
-if (up_key) {
-    phy_position_y -= shiva;
-    sprite_index = spr_echo_up;
-    image_speed = 0.3;
-}
-
-// Move left
-if (left_key) {
-    phy_position_x -= shiva;
-    sprite_index = spr_echo_left;
-    image_speed = 0.3;
-}
-
-// Move down
-if (down_key) {
-    phy_position_y += shiva;
-    sprite_index = spr_echo_down;
-    image_speed = 0.3;
-}
-
-// Stop animating
-if (!down_key and !right_key and !left_key and !up_key) {
-    image_speed = 0;
-    image_index = 0;
-}
-
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_invisiblewall">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Collide
+script_execute(state);
 </string>
           </argument>
         </arguments>
@@ -138,6 +81,31 @@ if (!down_key and !right_key and !left_key and !up_key) {
           <argument>
             <kind>1</kind>
             <string>///Collide
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Draw the shadow
+draw_sprite(spr_echo_shadow, image_index, x, y);
+draw_self();
 </string>
           </argument>
         </arguments>
