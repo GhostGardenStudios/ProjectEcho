@@ -11,7 +11,8 @@
     <sprite>sprites\spr_echo_up</sprite>
     <sprite>sprites\spr_echo_right</sprite>
     <sprite>sprites\spr_echo_left</sprite>
-    <sprite>sprites\spr_hue</sprite>
+    <sprite>sprites\spr_hue_right</sprite>
+    <sprite>sprites\spr_hue_left</sprite>
     <sprite>sprites\spr_echo_shadow</sprite>
   </sprites>
   <backgrounds name="background">
