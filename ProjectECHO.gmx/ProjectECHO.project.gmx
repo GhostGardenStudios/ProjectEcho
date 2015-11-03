@@ -18,6 +18,11 @@
       <sprite>sprites\spr_hue_right</sprite>
       <sprite>sprites\spr_hue_left</sprite>
     </sprites>
+    <sprites name="NPCs">
+      <sprites name="Dial">
+        <sprite>sprites\spr_dial</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -36,6 +41,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_hue</object>
     <object>objects\obj_view</object>
+    <object>objects\obj_dial</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

@@ -15,17 +15,17 @@
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
-    <isSet>0</isSet>
-    <w>0</w>
-    <h>0</h>
-    <showGrid>0</showGrid>
-    <showObjects>0</showObjects>
-    <showTiles>0</showTiles>
-    <showBackgrounds>0</showBackgrounds>
-    <showForegrounds>0</showForegrounds>
+    <isSet>-1</isSet>
+    <w>1491</w>
+    <h>807</h>
+    <showGrid>-1</showGrid>
+    <showObjects>-1</showObjects>
+    <showTiles>-1</showTiles>
+    <showBackgrounds>-1</showBackgrounds>
+    <showForegrounds>-1</showForegrounds>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
-    <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
+    <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
     <xoffset>0</xoffset>
     <yoffset>0</yoffset>
@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_hue" x="346" y="285" name="inst_576FB303" locked="0" code="" scaleX="0.78125" scaleY="0.660000026226044" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hue" x="346" y="285" name="inst_576FB303" locked="0" code="" scaleX="0.84375" scaleY="0.810000002384186" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="96" y="96" name="inst_C750D395" locked="-1" code="" scaleX="19" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="512" name="inst_6A5F67A7" locked="-1" code="" scaleX="6" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="96" y="128" name="inst_5EED578B" locked="-1" code="" scaleX="3" scaleY="6" colour="4294967295" rotation="0"/>
@@ -66,6 +66,7 @@
     <instance objName="obj_wall" x="800" y="640" name="inst_B1A79E74" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="416" y="320" name="inst_C98F0608" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_view" x="22" y="39" name="inst_A4C72E87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dial" x="504" y="303" name="inst_75BD1DC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
