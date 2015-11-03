@@ -26,33 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>///Initialize Hue
-spd = 1.7
+spd = 2.5
 phy_fixed_rotation = true;
 image_speed = 0.2;
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Wander Alarm
 </string>
           </argument>
         </arguments>
@@ -85,7 +62,7 @@ var xDif = phy_position_x - targetx;
 var yDif = phy_position_y - targety;
 var d = sqrt((xDif*xDif)+(yDif*yDif));
 
-if (d &lt; 20) {
+if (d &lt; 45) {
     phy_position_x+=(random_range(-1,1));
     phy_position_y+=(random_range(-1,1));
 } else {
