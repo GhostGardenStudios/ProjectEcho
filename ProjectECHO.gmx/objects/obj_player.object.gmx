@@ -3,9 +3,9 @@
   <spriteName>spr_echo_down</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-10</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_parentcollisions</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -56,14 +56,12 @@ state = scr_move_state;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Move the player in the step event
-script_execute(state);
+            <string>///Depth Correction
+depth = phy_position_y * -1;
 </string>
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -80,7 +78,8 @@ script_execute(state);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Collide
+            <string>/// Move the player in the step event
+script_execute(state);
 </string>
           </argument>
         </arguments>

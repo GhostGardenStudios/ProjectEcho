@@ -38,10 +38,13 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_wall</object>
     <object>objects\obj_hue</object>
-    <object>objects\obj_view</object>
     <object>objects\obj_dial</object>
+    <objects name="Helper Objects">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_view</object>
+      <object>objects\obj_parentcollisions</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

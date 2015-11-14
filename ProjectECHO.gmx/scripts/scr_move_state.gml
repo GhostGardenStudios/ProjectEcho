@@ -41,4 +41,3 @@ if (hspd > 0)  {
     sprite_index = spr_echo_left;
 }
 
-
