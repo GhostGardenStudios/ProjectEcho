@@ -6,7 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_wall</sprite>
     <sprites name="echo">
       <sprite>sprites\spr_echo_down</sprite>
       <sprite>sprites\spr_echo_up</sprite>
@@ -18,14 +17,19 @@
       <sprite>sprites\spr_hue_left</sprite>
       <sprite>sprites\spr_humanhue</sprite>
     </sprites>
+    <sprites name="helper spr">
+      <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_enemy_test</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <scripts name="Player States">
+    <scripts name="player states">
       <script>scripts\scr_move_state.gml</script>
+      <script>scripts\scr_dash_state.gml</script>
     </scripts>
-    <scripts name="Helper Scripts">
+    <scripts name="helper scripts">
       <script>scripts\scr_get_input.gml</script>
     </scripts>
   </scripts>
@@ -37,6 +41,8 @@
       <object>objects\obj_wall</object>
       <object>objects\obj_view</object>
       <object>objects\obj_parentcollisions</object>
+      <object>objects\obj_dash_effect</object>
+      <object>objects\obj_enemy_test</object>
     </objects>
   </objects>
   <rooms name="rooms">

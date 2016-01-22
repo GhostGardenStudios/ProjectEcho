@@ -16,8 +16,8 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1016</w>
-    <h>600</h>
+    <w>1491</w>
+    <h>807</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
     <showTiles>-1</showTiles>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-136</xoffset>
-    <yoffset>85</yoffset>
+    <xoffset>87</xoffset>
+    <yoffset>-26</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -55,10 +55,12 @@
     <instance objName="obj_view" x="380" y="261" name="inst_A4C72E87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="379" y="330" name="inst_11D0236B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="-49" y="369" name="inst_AFA72573" locked="0" code="" scaleX="10.71875" scaleY="26.21875" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="464" y="801" name="inst_A354E4E1" locked="0" code="" scaleX="30.9699993133545" scaleY="9.77999973297119" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="452" y="798" name="inst_A354E4E1" locked="0" code="" scaleX="30.9699993133545" scaleY="9.77999973297119" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="964" y="312" name="inst_2BFB067B" locked="0" code="" scaleX="9.8100004196167" scaleY="23.71875" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="432" y="-53" name="inst_3023FB82" locked="0" code="" scaleX="44.6875" scaleY="9.34375" colour="4294967295" rotation="0"/>
     <instance objName="obj_humanhue" x="516" y="342" name="inst_D512BFB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_test" x="195" y="191" name="inst_DEE96882" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_test" x="697" y="598" name="inst_07A1F024" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
