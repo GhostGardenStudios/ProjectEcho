@@ -7,10 +7,18 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="echo">
-      <sprite>sprites\spr_echo_down</sprite>
-      <sprite>sprites\spr_echo_up</sprite>
-      <sprite>sprites\spr_echo_right</sprite>
-      <sprite>sprites\spr_echo_left</sprite>
+      <sprites name="movement">
+        <sprite>sprites\spr_echo_down</sprite>
+        <sprite>sprites\spr_echo_up</sprite>
+        <sprite>sprites\spr_echo_right</sprite>
+        <sprite>sprites\spr_echo_left</sprite>
+      </sprites>
+      <sprites name="attack">
+        <sprite>sprites\spr_echo_attack_down</sprite>
+        <sprite>sprites\spr_echo_attack_up</sprite>
+        <sprite>sprites\spr_echo_attack_right</sprite>
+        <sprite>sprites\spr_echo_attack_left</sprite>
+      </sprites>
     </sprites>
     <sprites name="hue">
       <sprite>sprites\spr_hue_right</sprite>
@@ -28,6 +36,7 @@
     <scripts name="player states">
       <script>scripts\scr_move_state.gml</script>
       <script>scripts\scr_dash_state.gml</script>
+      <script>scripts\scr_attack_state.gml</script>
     </scripts>
     <scripts name="helper scripts">
       <script>scripts\scr_get_input.gml</script>
@@ -46,6 +55,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_enemytest</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>

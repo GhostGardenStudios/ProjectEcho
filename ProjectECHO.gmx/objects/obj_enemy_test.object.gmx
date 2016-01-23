@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>self</parentName>
+  <parentName>obj_parentcollisions</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>/// Intialize the enemy
 image_speed = .1;
-spd = .5;
+spd = .7;
 </string>
           </argument>
         </arguments>
