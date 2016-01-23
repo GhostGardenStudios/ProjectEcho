@@ -40,6 +40,8 @@
     </scripts>
     <scripts name="helper scripts">
       <script>scripts\scr_get_input.gml</script>
+      <script>scripts\scr_textbox.gml</script>
+      <script>scripts\scr_interaction.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -55,8 +57,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_enemytest</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_enemytest</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
