@@ -29,6 +29,7 @@
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\spr_enemy_test</sprite>
     </sprites>
+    <sprite>sprites\spr_dialogbox</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -40,10 +41,11 @@
     </scripts>
     <scripts name="helper scripts">
       <script>scripts\scr_get_input.gml</script>
-      <script>scripts\scr_textbox.gml</script>
-      <script>scripts\scr_interaction.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_dialog</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_hue</object>
@@ -51,9 +53,10 @@
     <objects name="helper obj">
       <object>objects\obj_wall</object>
       <object>objects\obj_view</object>
-      <object>objects\obj_parentcollisions</object>
+      <object>objects\obj_parent</object>
       <object>objects\obj_dash_effect</object>
       <object>objects\obj_enemy_test</object>
+      <object>objects\obj_dialog</object>
     </objects>
   </objects>
   <rooms name="rooms">
