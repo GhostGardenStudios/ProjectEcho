@@ -6,6 +6,11 @@ if (dash_key) {
     alarm[0] = room_speed/5;
 }
 
+if (attack_key) {
+    image_index = 0;
+    state = scr_attack_state;
+}
+
 // Get the axis
 var xaxis = (right_key - left_key);
 var yaxis = (down_key - up_key);
