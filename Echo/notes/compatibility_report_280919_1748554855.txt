@@ -1,0 +1,89 @@
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\scripts\scr_move_state\scr_move_state.gml
+Converted description /// @description scr_move_state
+
+Converting GML script: ${project_dir}\scripts\scr_dash_state\scr_dash_state.gml
+Converted description /// @description scr_dash_state
+
+Converting GML script: ${project_dir}\scripts\scr_attack_state\scr_attack_state.gml
+Converted description /// @description  scr_attack_state
+
+Converting GML script: ${project_dir}\scripts\scr_get_input\scr_get_input.gml
+Converted description /// @description scr_get_input
+
+!!! Font fnt_dialog uses a font (pix PixelFJVerdana12pt) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnt_dialog\fnt_dialog.gms1.png
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted description /// @description  Player variables
+
+Converting GML script: ${project_dir}\objects\obj_player\Alarm_0.gml
+Converted description /// @description  Alarm for the dash state
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted description /// @description  Depth correction
+
+Converting GML script: ${project_dir}\objects\obj_player\Other_7.gml
+Converted description /// @description  change back to move state
+
+Converting GML script: ${project_dir}\objects\obj_hue\Create_0.gml
+Converted description /// @description Initialize Hue
+
+Converting GML script: ${project_dir}\objects\obj_hue\Step_0.gml
+Converted description /// @description Depth Correction
+
+Converting GML script: ${project_dir}\objects\obj_humanhue\Step_0.gml
+Converted description /// @description Depth Correction
+
+Converting GML script: ${project_dir}\objects\obj_wall\Create_0.gml
+Converted description /// @description Depth Correction
+
+Converting GML script: ${project_dir}\objects\obj_view\Step_0.gml
+Converted description /// @description Move 10% towards the player
+
+Converting GML script: ${project_dir}\objects\obj_parent\Create_0.gml
+Converted description /// @description  Parent variables
+
+Converting GML script: ${project_dir}\objects\obj_parent\Collision_530c8a41-cde6-427c-bc9c-c35b121494c1.gml
+Converted description /// @description Collide
+
+Converting GML script: ${project_dir}\objects\obj_parent\Collision_68cdb0b0-6633-498f-9b26-0f70666ea022.gml
+Converted description /// @description  Collide
+
+Converting GML script: ${project_dir}\objects\obj_parent\Collision_df064c0b-07dc-4486-b798-07619f3da535.gml
+Converted description /// @description Collide
+
+Converting GML script: ${project_dir}\objects\obj_parent\Collision_0f91a351-870b-443a-a706-5606d61e537c.gml
+Converted description /// @description  Press x on speaker
+
+Converting GML script: ${project_dir}\objects\obj_parent\Collision_0b195165-26ed-4a8b-8af0-d8379fede149.gml
+Converted description /// @description  Collide
+
+Converting GML script: ${project_dir}\objects\obj_dash_effect\Create_0.gml
+Converted description /// @description Intialize the dash effect
+
+Converting GML script: ${project_dir}\objects\obj_dash_effect\Step_0.gml
+Converted description /// @description Fade
+
+Converting GML script: ${project_dir}\objects\obj_enemy_test\Create_0.gml
+Converted description /// @description  Intialize the enemy
+
+Converting GML script: ${project_dir}\objects\obj_enemy_test\Step_0.gml
+Converted description /// @description Depth correction
+
+Converting GML script: ${project_dir}\objects\obj_dialog\Create_0.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description  Initialize the dialog object
+
+Converting GML script: ${project_dir}\objects\obj_dialog\Draw_64.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description  Draw the dialog
+
+Game speed set to 30
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
